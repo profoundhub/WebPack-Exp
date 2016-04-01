@@ -42,9 +42,15 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	document.write(__webpack_require__(1));
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	document.write("Let's See If This Works.");
+	module.exports = "Display text from content.js.";
 
 /***/ }
 /******/ ]);
