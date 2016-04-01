@@ -1,1 +1,1 @@
-document.write("Let's See If This Works.");
+document.write(require("./content.js"));
